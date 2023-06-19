@@ -26,7 +26,7 @@ install: create-venv upgrade-pip install-dependencies install-pre-commit farewel
 
 create-venv:
 	@echo -e "$(COLOR_CYAN)Creating virtual environment...$(COLOR_RESET)" && \
-	python -m venv venv
+	python3 -m venv venv
 
 upgrade-pip:
 	@echo -e "$(COLOR_CYAN)Upgrading pip...$(COLOR_RESET)" && \
